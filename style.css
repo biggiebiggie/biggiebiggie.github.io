@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 0.8em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+nav_container {
+}
+
+nav {
+  height: 70px;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  width: 100px;
+  text-align: center;
+  font-weight: 100;
+}
+
+#frontpage_hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255, 0, 99);
+  background: linear-gradient(
+    16deg,
+    rgba(255, 0, 99, 1) 13%,
+    rgba(232, 65, 5, 1) 45%
+  );
+}
+
+.content_container {
+  max-width: 800px;
+  width: 800px;
+}
+
+.flex_container {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+#frontpage_text_container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  padding-right: 10px;
+  border-right: 5px solid black;
+}
+
+#frontpage_text_container p:last-child {
+  margin-bottom: 0;
+}
+
+#frontpage_title {
+  text-align: end;
+}
+
+#frontpage_text {
+  text-align: end;
+  font-weight: 300;
+}
+
+#frontpage_image {
+  background-image: url("assets/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#frontpage_eyecatcher {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-right: 10px;
+}
+
+.eyecatcher_text {
+  font-weight: 700;
+  font-size: 2.5em;
+}
